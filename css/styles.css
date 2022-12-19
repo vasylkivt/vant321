@@ -1,0 +1,244 @@
+/* Стандартні Налаштування */
+/* html {
+    box-sizing: border-box;
+}
+*,
+::before,
+::after {
+    box-sizing: inherit;
+} */
+
+:root {
+  --primary-accent-color: #99823d;
+  --secondary-accent-color: #a68f4b;
+
+  --primary-text-color-dark: #141414;
+  --secondary-text-color-dark: #3d3d3d;
+
+  --primary-text-color-light: #ffffff;
+  --secondary-text-color-light: #ebebeb;
+
+  --primary-title-color-dark: #141414;
+  --secondary-title-color-dark: #000000;
+
+  --primary-title-color-light: #ffffff;
+  --secondary-title-color-light: #ebebeb;
+
+  --primary-background-color-light: #ebebeb;
+  --secondary-background-color-light: #ffffff;
+
+  --primary-background-color-dark: #141414;
+  --secondary-background-color-dark: #3d3d3d;
+
+  --primary-font-title: 'Teko', sans-serif;
+  --secondary-font-title: ;
+
+  --primary-font-text: 'Open Sans', sans-serif;
+  --secondary-font-text: ;
+
+   --outline-pri: 2px solid rgb(150, 255, 0);
+    --outline-seco: 2px solid rgb(255, 0, 0);
+
+    --background-pri: rgb(150, 150, 150) ;
+    --background-seco: rgb(200, 150, 100);
+}
+
+
+
+body{
+    /* background-color: var(--primary-background-color-light); */
+    background-color: var(--background-seco);
+    outline: var(--outline-pri);
+    margin: 0;
+    font-family: var(--primary-font-text);
+}
+
+.list{
+
+list-style: none;
+}
+
+.link{
+
+    text-decoration:none;
+}
+
+.container-main{
+    width: 1304px;
+    margin: 0 auto;
+}
+
+.container{
+
+    width: 1168px;
+    margin: 0 auto;
+    padding-left: 68px;
+    padding-right: 68px;
+}
+/* =================== Компоненти =================== */
+.suptitle{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.51;
+    text-align: center;
+    letter-spacing: 2.7625px;
+    text-transform: uppercase;
+    color: var(--primary-accent-color);
+
+}
+
+.subtitle{
+font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1;
+
+    text-transform: capitalize;
+    color: var(--primary-title-color-dark);
+}
+
+.title{
+
+    font-family: 'Teko', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 53px;
+        line-height: 1;
+        text-align: center;
+        text-transform: capitalize;
+    color: var(--primary-title-color-dark);
+}
+
+.text{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+
+color: var(--primary-text-color-dark);
+}
+
+.btn{
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+    
+        text-align: center;
+        letter-spacing: 2.975px;
+        text-transform: uppercase;
+    /* color: var(--primary-text-color-light); */
+}
+
+
+
+/* =================== /Компоненти =================== */
+
+
+
+/* =================== Шапка =================== */
+.hero{
+    background-color: var(--primary-background-color-dark);
+}
+
+.header{
+  background-color: var(--primary-background-color-dark);
+}
+
+.header > .container-main{
+display: flex;
+}
+
+
+.logo{
+    display:inline-block;
+    background-color: var(--primary-accent-color);
+    padding: 68px;
+}
+
+.header-item-left{
+        font-size: 9px;
+        line-height: 1.7;
+        /* text-align: center; */
+        color: rgba(255, 255, 255, 0.75);
+}
+
+.header-item-right{
+        font-size: 10px;
+        line-height: 1.5;
+        /* text-align: center; */
+    color: var(--primary-text-color-light);
+}
+.header-item-img{
+    color: #E63946;
+        font-size: 25px;
+        line-height: 1;
+        /* text-align: center; */
+        
+}
+.header-item{
+    display: flex;
+
+}
+
+ .nav-header-item{
+        font-size: 11px;
+        line-height: 3.09;    
+        letter-spacing: 2.7625px;
+        text-transform: uppercase;
+    color: var(--primary-text-color-light);
+ }
+
+ .nav-header-menu{
+    display: flex;
+ }
+.header-item > .list{
+    display: flex;
+}
+
+
+
+/* =================== /Шапка =================== */
+
+
+/* =================== Контент =================== */
+
+.hero-modal{
+    background-color: var(--secondary-background-color-light);
+
+}
+
+.hero-title{
+    font-family: 'Teko', sans-serif;
+            font-style: normal;
+        font-weight: 400;
+        font-size: 67px;
+        line-height: 1;
+    
+        text-transform: capitalize;
+    
+        color: #141414;
+    
+}
+
+.sicial-link{
+        font-size: 12px;
+        line-height: 5.67;
+    
+        letter-spacing: 2.975px;
+        text-transform: uppercase;
+    color: var(--secondary-title-color-dark);
+        color: #000000;
+}
+.sicial-list{
+    display: flex;
+    background-color: var(--primary-background-color-light);
+    margin: 0;
+}
+
+/* =================== /Контент =================== */
